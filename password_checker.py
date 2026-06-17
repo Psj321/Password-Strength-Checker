@@ -27,11 +27,11 @@ if has_symbol:
     score += 1
 
 if score <= 2:
-    strength = "Weak Password ❌"
+    strength = "Weak Password"
 elif score <= 4:
-    strength = "Medium Password ⚠️"
+    strength = "Medium Password"
 else:
-    strength = "Strong Password ✅"
+    strength = "Strong Password"
 
 print("\nPassword Analysis")
 print("------------------")
